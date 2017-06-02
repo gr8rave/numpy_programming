@@ -1,0 +1,29 @@
+=====================================================================
+NumPy is the fundamental package for scientific computing with Python. It contains among other things:
+
+- a powerful N-dimensional array object
+- sophisticated (broadcasting) functions
+- tools for integrating C/C++ and Fortran code
+- useful linear algebra, Fourier transform, and random number capabilities- 
+
+NumPy can also be used as an efficient multi-dimensional container of generic data.
+Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+=====================================================================
+Installation of NumPy and Scipy
+1) python --version
+2) sudo apt-get install python-numpy
+3) sudo apt-get install cython
+4) sudo apt-get install python-scipy
+5) sudo apt-get install python-matplotlib
+---------------------------------------------------------------------
+Test if installation is successful
+$ python
+Python 2.7.4 (default, Sep 26 2013, 03:20:26) 
+[GCC 4.7.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy
+>>> import scipy
+>>> import cython
+>>> exit()
+=====================================================================
+
